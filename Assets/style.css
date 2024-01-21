@@ -1,0 +1,55 @@
+.text-center {
+    text-align: center!important;
+}
+p {
+    text-align: center;
+}
+a {
+    text-decoration: none;
+}
+/*
+1. ds-banner
+*/
+.ds-banner {
+    display: flex;
+    margin: 10px 50px;
+}
+.image-box {
+    display: inline-block;
+    box-sizing: border-box;
+}
+.sumary-box{
+    display: inline-block;
+    box-sizing: border-box;
+    padding-left: 70px;
+}
+.ds-numbervalulist {
+    display: flex;
+    list-style: none;
+}
+.ds-numbervalulist li {
+    margin-right: 60px;
+}
+.ds-numbervalulist strong {
+    display: block;
+    color: blue;
+    font-size: 36px;
+}
+/*
+2. ds-about-section
+*/
+.ds-button {
+    padding : 10px 20px;
+    border: 2px solid blue;
+    border-radius: 60px;
+    transition-duration: 0.4s;
+}
+.ds-button:hover {
+    background-color: blue;
+    color: white;
+}
+
+/*
+3. ds-skill
+*/
+
