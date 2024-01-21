@@ -1,0 +1,90 @@
+.text-center {
+    text-align: center!important;
+}
+p {
+    text-align: center;
+}
+a {
+    text-decoration: none;
+}
+.ds-heading {
+    display: inline-block;
+    font-size: 16px;
+    border-bottom: 3px solid blue;
+}
+.content {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+/*
+1. ds-banner
+*/
+.ds-banner {
+    display: flex;
+    margin: 10px 50px;
+}
+.image-box {
+    display: inline-block;
+    box-sizing: border-box;
+}
+.sumary-box{
+    display: inline-block;
+    box-sizing: border-box;
+    padding-left: 70px;
+}
+.ds-numbervalulist {
+    display: flex;
+    list-style: none;
+}
+.ds-numbervalulist li {
+    margin-right: 60px;
+}
+.ds-numbervalulist strong {
+    display: block;
+    color: blue;
+    font-size: 36px;
+}
+/*
+2. ds-about-section
+*/
+.ds-button {
+    padding : 10px 20px;
+    border: 2px solid blue;
+    border-radius: 60px;
+    transition-duration: 0.4s;
+}
+.ds-button:hover {
+    background-color: blue;
+    color: white;
+}
+
+/*
+3. ds-skill
+*/
+.ds-skills-section {
+    display: flex;
+}
+.core{
+    width: 50%;
+}
+.other{
+    width: 50%;
+}
+.tag-skill {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 11px;
+}
+.tag-skill li {
+    display: inline-block;
+    font-size: 15px;
+    padding: 10px 20px;
+    border: 1px solid #d7d7d7;
+    border-radius: 27px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
