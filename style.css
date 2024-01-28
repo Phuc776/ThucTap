@@ -1,0 +1,162 @@
+/* .circle1 {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background-color: gray;
+    border-radius: 50%;
+    border: 5px black;
+    transition-duration: 2s;
+    transition-delay: 3s;
+}
+.circle2 {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    opacity: 0.7;
+    border-radius: 50%;
+    border: 5px black;
+    z-index: 5;
+    transition-duration: 3s;
+}
+.circle1:hover {
+    transform: scale(2);
+    background-color: bisque;
+}
+.circle2:hover {
+    transform: translate(500px);
+} */
+body{
+    font-family: 'Raleway', Arial, sans-serif;
+    background: #2f3238;
+    color: #fff;
+    font-weight: 400;
+    font-size: 1em;
+}
+
+h2{
+    margin: 0;
+    word-spacing: -0.15em;
+    font-weight: 300;
+}
+p{
+    letter-spacing: 1px;
+    font-size: 68.5%;
+    margin: 0;
+}
+/* 1.holder-nice-lily effect */
+.holder-nice-lily{
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 50px;
+    width: 480px;
+    height: 360px;
+    background: #3085a3;
+    box-sizing: border-box;
+}
+
+.fig{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.fig div {
+    position: absolute;
+    padding: 2em;
+    text-transform: uppercase;
+    font-size: 1.25em;
+    width: 100%;
+    height: 50%;
+    bottom: 0;
+    left: 0;
+    color: #fff;
+    box-sizing: border-box;
+}
+.holder-nice-lily div h2{
+    transition: 0.35s;
+    transform: translateY(40px);
+}
+span{
+    font-weight: 800;
+}
+.fig div p{
+    color: rgba(255,255,255,0.8);
+    opacity: 0;
+    transform: translateY(40px);
+    transition: opacity 0.2s, transform 0.35s;
+}
+.holder-nice-lily img {
+    opacity:0.7;
+    transition: 0.35s;
+    transform: translate(-40px);
+    position: relative; 
+    display: block;
+    box-sizing: border-box;
+    width: calc(100% + 50px);
+}
+
+.holder-nice-lily:hover img{
+    opacity:1;
+    transform: translate(0);
+}
+.holder-nice-lily:hover .fig div h2 {
+    transform: translateY(0);
+}
+.holder-nice-lily:hover .fig div p {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+/* 2.holder-glowing-ruby effect */
+.holder-glowing-ruby {
+    background-color: #17819c;
+    position: relative;
+    overflow: hidden;
+    width: 480px;
+    height: 360px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.holder-glowing-ruby img{
+    opacity: 0.7;
+    transition: 0.35s;
+    transform: scale(1.15);
+    position: relative;
+}
+.holder-glowing-ruby .fig{
+    padding: 2em;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    font-size: 1.25em;
+    text-align: center;
+}
+
+.holder-glowing-ruby h2{
+    margin-top: 20%;
+    transition: 0.35s;
+    transform: translateY(20px);
+
+}
+.holder-glowing-ruby p{
+    margin: 1em 0 0;
+    padding: 3em;
+    border: 1px solid #fff;
+    opacity: 0;
+    transition: 0.35s;
+    transform: translateY(20px) scale(1.1);
+}
+.holder-glowing-ruby:hover img{
+    opacity: 0.5;
+    transform: scale(1);
+}
+.holder-glowing-ruby:hover h2{
+    transform: translateY(0);
+}
+.holder-glowing-ruby:hover p{
+    opacity: 1;
+    transform: translateY(20px) scale(1);
+}
