@@ -18,9 +18,6 @@ p{
     padding: 0;
 }
 @media screen and (min-width: 1025px) {
-    .be-nav-navigation-desktop{
-        display: block;
-    }
     .be-nav-navigation-mobile{
         display: none;
     }
@@ -129,6 +126,7 @@ p{
     justify-content: space-between;
     padding: 16px;
 }
+
 .be-nav-phone {
     display: none;
 }
@@ -139,6 +137,10 @@ p{
     .be-nav-tablet{
         display: none;
     }
+}
+.be-nav-phone .navigation-top {
+    display: flex;
+    justify-content: center;
 }
 
 .navigation-dropdown__main--w-columns {
